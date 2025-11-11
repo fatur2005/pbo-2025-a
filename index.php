@@ -6,6 +6,6 @@ use App\Math\LuasLingkaran; //panggil class
 
 $lingkaran = new LuasLingkaran(10);
 // $lingkaran->jari = 12;
-$lingkaran->tampil('roda'); //panggil method tampil
+$lingkaran->tampil('roda'); 
 
-LuasLingkaran::testing(); //panggil static method
+LuasLingkaran::testing(); 

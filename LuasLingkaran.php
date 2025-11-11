@@ -8,7 +8,7 @@ class LuasLingkaran {
     protected int $jari;
     
     public function __construct($isiJari = 1) {
-        $this->jari = $isiJari; //10
+        $this->jari = $isiJari; 
     }
 
     public function tampil($nama = 'ban') {
@@ -23,7 +23,7 @@ class LuasLingkaran {
 
     public function __destruct() {
         echo "<br/>";
-        echo "udah ah cape";
+        echo "fatur ganteng";
     }
 }
 

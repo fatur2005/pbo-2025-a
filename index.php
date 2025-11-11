@@ -1,11 +1,11 @@
 <?php
 
-require_once('./LuasLingkaran.php'); //cara panggil file
+require_once('./LuasLingkaran.php'); 
 
-use App\Math\LuasLingkaran; //panggil class
+use App\Math\LuasLingkaran; 
 
 $lingkaran = new LuasLingkaran(10);
-// $lingkaran->jari = 12;
-$lingkaran->tampil('roda'); //panggil method tampil
 
-LuasLingkaran::testing(); //panggil static method
+$lingkaran->tampil('roda'); 
+
+LuasLingkaran::testing(); 
